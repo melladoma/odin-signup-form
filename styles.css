@@ -1,0 +1,18 @@
+@font-face{
+    font-family:'norseBold';
+    src:url('fonts/Norse-Bold.otf')
+    format('opentype');
+}
+
+body{
+    display:flex;
+}
+
+h1{
+    font-family: 'norseBold',sans-serif;
+    text-transform: capitalize;
+}
+
+.left-panel{
+    background: url('./resources/background_halie-west_large.jpg');
+}
