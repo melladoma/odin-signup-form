@@ -140,3 +140,21 @@ button:hover{
     box-shadow: none;
     opacity:0.8;
 }
+
+/* form validation styling */
+.error{
+   position: relative;
+   border-color: rgb(189, 20, 20);
+}
+
+input + span {
+    display:block;
+}
+
+#error-msg::before {
+    content:"*Passwords do not match";
+    font-size: 0.6em;
+    color:rgb(189, 20, 20);
+    position:absolute;
+    /* visibility:hidden; */
+}
